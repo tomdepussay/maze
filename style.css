@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.menu {
+    width: 15%;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #404d68;
+    color: white;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5em;
+    color: #5d687f;
+    white-space: nowrap;
+}
+
+select {
+    margin-top: 5%;
+    padding: 2%;
+    border: 1px solid #404d68;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #404d68;
+}
+
+p {
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5em;
+    color: #5d687f;
+    white-space: nowrap;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #404d68;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+#generate {
+    background-color: #4ae558;
+    color: #212841;
+}
+
+#reset {
+    background-color: white;
+    color: #404d68;
+    border: 1px solid #404d68;
+}
+
+button:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+    scale: 1.1;
+}
+
+.grid {
+    width: 85%;
+    background-color: #a5a7b5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+}
+
+.cell_1 {
+    background-color: #ffffff;
+}
+
+.cell_2 {
+    background-color: #e7e7e9;
+
+}
+
+.wall {
+    background-color: #212841;
+}
+
+.start {
+	background-image: url(./asset/play-solid.svg);
+	background-size: calc(100%) calc(100%);
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+.end {
+	background-image: url(./asset/flag-solid.svg);
+	background-size: calc(100%) calc(100%);
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
