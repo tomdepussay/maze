@@ -13,9 +13,7 @@ Un petit projet permettant de générer et de résoudre un labyrinthe.
 L'algorithme de Kruskal est une méthode pour créer un labyrinthe qui est possible à resoudre.
 
 Dans un premier temps, il crée un cadrillage du labyrinthe pour laisser une cellule isolée entre des murs.
-<div align="center">
-  <img src="[URL_de_l'image](https://github.com/tomdepussay/maze/assets/109548814/5d929317-f9c0-4ec6-bf70-ef99433c956d)" width="50%">
-</div>
+![image](https://github.com/tomdepussay/maze/assets/109548814/5d929317-f9c0-4ec6-bf70-ef99433c956d)
 
 Dans un second temps, chaque cellule isolée recoit un numéro unique (ici une couleur).
 ![image](https://github.com/tomdepussay/maze/assets/109548814/7ebb5a44-2b68-4c58-8bbd-c8c0fcfa8b1b)
